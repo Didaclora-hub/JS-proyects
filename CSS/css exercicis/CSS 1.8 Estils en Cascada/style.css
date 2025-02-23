@@ -1,0 +1,13 @@
+/* No canviïs el codi CSS existent
+Fixeu-vos que totes les BOX tenen 10px de padding */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}

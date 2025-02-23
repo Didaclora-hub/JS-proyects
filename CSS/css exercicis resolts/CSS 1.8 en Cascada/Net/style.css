@@ -1,0 +1,26 @@
+/* No canviïs el codi CSS existent
+Fixeu-vos que totes les BOX tenen 10px de padding */
+
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.text-blanc {
+  color:white
+}
+
+p{
+  color:yellow;
+  margin: 0px;
+  padding:0px;
+}
+
+.box-interior {
+  background-color: red;
+}
+
+#box-exterior {
+  background-color:purple;
+}
