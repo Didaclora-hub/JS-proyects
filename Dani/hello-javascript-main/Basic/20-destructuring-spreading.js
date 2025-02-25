@@ -30,12 +30,14 @@ console.log(myValue4)
 
 // Sintaxis arrays con valores predeterminados
 
-let [myValue5 = 0, myValue6 = 0, myValue7 = 0, myValue8 = 0, myValue9 = 0] = myArray
+let [myValue5 = 0, myValue6 = 0, myValue7 = 0, myValue8 = 0, myValue9 = 0] = myArray 
+//en el caso que las variables no tengan valor, lo que estamos haciendo con el '= 0' es decir que valgan zero 
 console.log(myValue5)
 console.log(myValue6)
 console.log(myValue7)
 console.log(myValue8)
 console.log(myValue9)
+
 
 // Ignorar elementos array
 
