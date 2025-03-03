@@ -6,10 +6,14 @@
     <title>Ejercicio 10: Agregar Elemento con `appendChild`</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
+    <div id="contenedor">Contenido existente</div>
+    <button id="miBoton">Agregar Elemento</button>
 
     <script>
-      // Escribe tu codigo javascript aqui
+      const child = document.createElement('div')
+      child.textContent = 'contenido'
+      const boton = document.getElementById('contenedor')
+      boton.appendChild(child)
     </script>
   </body>
 </html>
