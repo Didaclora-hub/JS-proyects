@@ -6,10 +6,13 @@
     <title>Ejercicio 17: Manejo de Evento de Carga de Imagen</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
+    <img id="miImagen" src="./diagrama er.jpg" alt="Imagen" />
 
     <script>
-      // Escribe tu codigo javascript aqui
+      const image = document.getElementById('miImagen')
+      image.addEventListener('load', (event)=>{
+        alert('La imagen ha cargado correctamente')
+      })
     </script>
   </body>
 </html>
